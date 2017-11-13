@@ -9,9 +9,10 @@ namespace less10_01
     static class MyStaticClass
     {
         static int a;
-        public static int Increment()
+        public static void Increment()
         {
-            return a = +1;
+            a++;
+            Console.WriteLine(a);
         }
     }
 }
